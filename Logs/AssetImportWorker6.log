@@ -1,0 +1,217 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32618 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+54912
+Successfully changed project path to: C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV
+C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 87.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008828 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.552 seconds
+Domain Reload Profiling:
+	ReloadAssembly (552ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (399ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Desktop\Proyecto_DTCTV\DTCTV\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Desktop\Proyecto_DTCTV\DTCTV\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Domain Reload Profiling:
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5159 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5617.
+Memory consumption went from 204.2 MB to 203.5 MB.
+Total: 2.865300 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.161600 ms MarkObjects: 2.137200 ms  DeleteObjects: 0.232100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 347918.771270 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_MetallicSmoothness.png
+  artifactKey: Guid(6c39397d96c600f488ebfe15773c31ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_MetallicSmoothness.png using Guid(6c39397d96c600f488ebfe15773c31ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e8925e358666ccef430bb794295016') in 0.163638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.343177 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_MetallicSmoothness.png
+  artifactKey: Guid(043ad1f55b00c3c4badce837c8558e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_MetallicSmoothness.png using Guid(043ad1f55b00c3c4badce837c8558e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a830ed2c7cb6dc3075b358a95b635704') in 0.161981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.205782 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_MetallicSmoothness.png
+  artifactKey: Guid(44d6de7431774ed40806db467943631a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_MetallicSmoothness.png using Guid(44d6de7431774ed40806db467943631a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c40dd2653b3a5a8c4ace4d7539a0a7') in 0.007552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.287908 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_AlbedoTransparency.png
+  artifactKey: Guid(e86b1ea0480ca224aa9502ba3b4d838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_AlbedoTransparency.png using Guid(e86b1ea0480ca224aa9502ba3b4d838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0379cb1f1d26014caa100f716418e576') in 0.009958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_MetallicSmoothness.png
+  artifactKey: Guid(365a7f5c93d5ba444866ce1126be8803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_MetallicSmoothness.png using Guid(365a7f5c93d5ba444866ce1126be8803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972b525d1beeb22a9f68e2a3b88e686d') in 0.008925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.044278 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPaperMat.mat
+  artifactKey: Guid(d28d3c960982341439392cc58d804ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPaperMat.mat using Guid(d28d3c960982341439392cc58d804ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9933e5fe8b493e40e4cfc2d9da92a032') in 0.210711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.182193 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/Thoothpaste.fbx
+  artifactKey: Guid(937b3cff1d21b99499260d9992216b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/Thoothpaste.fbx using Guid(937b3cff1d21b99499260d9992216b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2d362de597978ae4053ac66fb9d7f6') in 0.269222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.864891 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/Soap_Soap4_MetallicSmoothness.png
+  artifactKey: Guid(3f2403d65c8c94e40bad2374c82dc20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/Soap_Soap4_MetallicSmoothness.png using Guid(3f2403d65c8c94e40bad2374c82dc20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8ea02ac3968cbbaade566988df434f') in 0.013109 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

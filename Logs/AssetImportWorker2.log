@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16294 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32618 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-E:/Aa Uni/DTCTV
+C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65188
-Successfully changed project path to: E:/Aa Uni/DTCTV
-E:/Aa Uni/DTCTV
+54912
+Successfully changed project path to: C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV
+C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,111 @@ E:/Aa Uni/DTCTV
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 124.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 116.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Aa Uni/DTCTV/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/Proyecto_DTCTV/DTCTV/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 5500 XT (ID=0x7340)
-    Vendor:   ATI
-    VRAM:     8151 MB
-    Driver:   31.0.12027.9001
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   31.0.15.5222
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007716 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.016589 seconds.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 131.94 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 131.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
+- Completed reload, in  0.907 seconds
 Domain Reload Profiling:
-	ReloadAssembly (719ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (908ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (504ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (596ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (359ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (132ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006525 seconds.
+Registered in 0.013980 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Aa Uni\DTCTV\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\Aa Uni\DTCTV\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Desktop\Proyecto_DTCTV\DTCTV\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Usuario\Desktop\Proyecto_DTCTV\DTCTV\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 126.67 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.430 seconds
+- Completed reload, in  1.447 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1431ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (120ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
+			CreateAndSetChildDomain (19ms)
 		EndReloadAssembly (1191ms)
-			LoadAssemblies (97ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (659ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (676ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (311ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (30ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5159 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5613.
 Memory consumption went from 203.7 MB to 202.9 MB.
-Total: 3.796400 ms (FindLiveObjects: 0.475700 ms CreateObjectMapping: 0.435700 ms MarkObjects: 2.476900 ms  DeleteObjects: 0.407100 ms)
+Total: 7.434100 ms (FindLiveObjects: 0.692500 ms CreateObjectMapping: 0.643600 ms MarkObjects: 5.609000 ms  DeleteObjects: 0.487600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,17 +165,835 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1561866.880995 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(7ab28ff6eb5f9a74d9e92226210384ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(7ab28ff6eb5f9a74d9e92226210384ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285ac22102e68218bed1cafbb26aaf13') in 0.344780 seconds 
+  Time since last request: 345886.182191 seconds.
+  path: Assets/TechoMadera.jpg
+  artifactKey: Guid(f0d9c2530f51aee4b9c626b28571acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechoMadera.jpg using Guid(f0d9c2530f51aee4b9c626b28571acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2be00c531621f77905d881f7d88ef4') in 0.174876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TazaMat.mat
+  artifactKey: Guid(e40008da4e54e714ba54ae25fd02546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TazaMat.mat using Guid(e40008da4e54e714ba54ae25fd02546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2ec434aca84387463d089a797ce3be') in 1.747232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1466.571962 seconds.
+  path: Assets/Models/NIVEL1/Bath/Burbuja.png
+  artifactKey: Guid(a1049de96c1490a40b6269608952d39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Burbuja.png using Guid(a1049de96c1490a40b6269608952d39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b564b9d498e5063cf734c412f45df3') in 0.033689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/NIVEL1/Bath/BurbujitasParticle System.prefab
+  artifactKey: Guid(78062714fdd1ca845bf50f1761f76748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/BurbujitasParticle System.prefab using Guid(78062714fdd1ca845bf50f1761f76748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1844422a9869c286da600013a1ff6501') in 0.970426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.969253 seconds.
+  path: Assets/Models/NIVEL1/Bath/Espejo/EspejoMat.mat
+  artifactKey: Guid(8d9b1ff7da479964cac1454d525e6256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Espejo/EspejoMat.mat using Guid(8d9b1ff7da479964cac1454d525e6256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8256fbc81c1e5cf08695eba146bc00') in 1.230625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.110774 seconds.
+  path: Assets/Models/NIVEL1/OtherObjects/CrumbledPaper.fbx
+  artifactKey: Guid(dfed90f93e9c5bf43914927bd89436ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/OtherObjects/CrumbledPaper.fbx using Guid(dfed90f93e9c5bf43914927bd89436ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fd33d3bfa7492cf83430168ba85e93') in 0.194098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.228589 seconds.
+  path: Assets/Models/NIVEL1/OtherObjects/Wedding_1.png
+  artifactKey: Guid(846b1336c7df71845bd2fc1681cc09ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/OtherObjects/Wedding_1.png using Guid(846b1336c7df71845bd2fc1681cc09ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a569c808dc6251c436ed56411de1b2') in 0.054853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/NIVEL1/OtherObjects/Moving_Body.fbx
+  artifactKey: Guid(e0f56fec666fc434da5412b6149ca97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/OtherObjects/Moving_Body.fbx using Guid(e0f56fec666fc434da5412b6149ca97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1996276582c1ef566bf92d73b3e187') in 0.114982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.572867 seconds.
+  path: Assets/Models/NIVEL1
+  artifactKey: Guid(c1efc5ae762b4114fa4a442e548c7f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1 using Guid(c1efc5ae762b4114fa4a442e548c7f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08876c44c49a2725372a3dda612b9515') in 0.002234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.036032 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath
+  artifactKey: Guid(a3ab42e12b7dd4f4e8e6d51e1c5ab8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath using Guid(a3ab42e12b7dd4f4e8e6d51e1c5ab8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6cdedc16b6bdd994b76fe58a25927a') in 0.001917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087957 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/ToiletBrush.fbx
+  artifactKey: Guid(bd235e988d7360641815276179eedec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/ToiletBrush.fbx using Guid(bd235e988d7360641815276179eedec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b29bbbc6734614a9dacf933a3bd505') in 0.021702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/ToiletPlug.fbx
+  artifactKey: Guid(cd1ca81dbeeff6443a3066088de46865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/ToiletPlug.fbx using Guid(cd1ca81dbeeff6443a3066088de46865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1495828aea49835cb3756d629e3e288') in 0.048166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.761845 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla
+  artifactKey: Guid(0bb5c3f1ad4dc5f41835541f2db9b0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla using Guid(0bb5c3f1ad4dc5f41835541f2db9b0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08092163074a5b2eb4badf91799c599') in 0.002318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.853337 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/TowelRail.fbx
+  artifactKey: Guid(4ae424efb57f0c249a881fd9cdacddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/TowelRail.fbx using Guid(4ae424efb57f0c249a881fd9cdacddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf885e8d243ded26c952488a2c0682a') in 0.020984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.674870 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas
+  artifactKey: Guid(b688e2ad7180f8e4394bd264ca538271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas using Guid(b688e2ad7180f8e4394bd264ca538271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932d6706076db8220a2485857168615b') in 0.001932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060557 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelColor_AlbedoTransparency.png
+  artifactKey: Guid(091e19b21e63d914396efc9b687aaa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelColor_AlbedoTransparency.png using Guid(091e19b21e63d914396efc9b687aaa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30efd9a46efacd33d9dd0c3df7bb856') in 0.007111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.292552 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelRailColor_AlbedoTransparency.png
+  artifactKey: Guid(123e56f856004324eaf0489f114d5f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelRailColor_AlbedoTransparency.png using Guid(123e56f856004324eaf0489f114d5f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c8d57e7ecc5ecd8c8ecad8832bd4c5') in 0.028781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelRailColor_Normal.png
+  artifactKey: Guid(6fc0922faa2d0d444a1693bef2268f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelRailColor_Normal.png using Guid(6fc0922faa2d0d444a1693bef2268f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd228746a7fa3f2bf451163bce366ab60') in 0.016065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.333225 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/ToallaMat.mat
+  artifactKey: Guid(73a6bee63c9c5fc43a14889bb73c5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/ToallaMat.mat using Guid(73a6bee63c9c5fc43a14889bb73c5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaef4d55bb15991918aa3cc337cd8cba') in 0.007751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.337858 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelColor_Normal.png
+  artifactKey: Guid(2a4fde5ff705dbc4c8acf7f3b8733d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelColor_Normal.png using Guid(2a4fde5ff705dbc4c8acf7f3b8733d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7484948f37e9abfe187e22eec0661e82') in 0.007694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.174320 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/ToallaMat.mat
+  artifactKey: Guid(73a6bee63c9c5fc43a14889bb73c5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/ToallaMat.mat using Guid(73a6bee63c9c5fc43a14889bb73c5e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffe5afa253c320dbd5ba106f7bacf72') in 0.011263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.860238 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/BsrraToallaMAt.mat
+  artifactKey: Guid(30e3da4c5cdbe884394655113e0f9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/BsrraToallaMAt.mat using Guid(30e3da4c5cdbe884394655113e0f9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ab45d7daf7876c4e75f3e6b8b8a987') in 0.007919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.015844 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelRailColor_Normal.png
+  artifactKey: Guid(6fc0922faa2d0d444a1693bef2268f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/TowelRail_TowelRailColor_Normal.png using Guid(6fc0922faa2d0d444a1693bef2268f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48865e796c43c3d3c7e8b70d9e1f284') in 0.008901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.253401 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/Texturas/BsrraToallaMAt.mat
+  artifactKey: Guid(30e3da4c5cdbe884394655113e0f9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/Texturas/BsrraToallaMAt.mat using Guid(30e3da4c5cdbe884394655113e0f9d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87c827a9bd518c56bc22dc24e38f00c') in 0.010597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 317.500598 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug
+  artifactKey: Guid(e27d8ee61d1808c4f9f867573cc719f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug using Guid(e27d8ee61d1808c4f9f867573cc719f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56cfac378f06f24d7065e5759ce20f78') in 0.002079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.432930 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel
+  artifactKey: Guid(d8198ce20fb94a046a8c8a3d54d223e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel using Guid(d8198ce20fb94a046a8c8a3d54d223e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16eef59fa7dce1595c85dd50db07fd61') in 0.002078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.667691 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo
+  artifactKey: Guid(7fab5283610b9e946979f1fd102539ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo using Guid(7fab5283610b9e946979f1fd102539ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e5ef75576c2e3c69152da53482df71') in 0.002203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.858154 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_AlbedoTransparency.png
+  artifactKey: Guid(f56acac78a218e642864f788fa29df6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_AlbedoTransparency.png using Guid(f56acac78a218e642864f788fa29df6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4957a11cb66bf382b3e77ae642720c') in 0.122966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_Normal.png
+  artifactKey: Guid(4971323bef828a643a86056ce154a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_Normal.png using Guid(4971323bef828a643a86056ce154a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685050ca00cb808ee74f7d1e8e7ad020') in 0.041048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.560217 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/BathCepilloMat.mat
+  artifactKey: Guid(9ba222c65a762b042a79a54d81c43b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/BathCepilloMat.mat using Guid(9ba222c65a762b042a79a54d81c43b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cfaa8a9754118b8bd1d89bd080e7ee') in 0.008181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.855552 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_Normal.png
+  artifactKey: Guid(4971323bef828a643a86056ce154a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/ToiletBrush_CepilloToilet_Normal.png using Guid(4971323bef828a643a86056ce154a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39496d6bd42cd50f2f09ce326eeb20a') in 0.006341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.156277 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/BathCepilloMat.mat
+  artifactKey: Guid(9ba222c65a762b042a79a54d81c43b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasCepillo/BathCepilloMat.mat using Guid(9ba222c65a762b042a79a54d81c43b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61888d888c71b293ab71afc4ae96f285') in 0.011229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.720899 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_AlbedoTransparency.png
+  artifactKey: Guid(769875edc8df5604d9624aa4e364d7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_AlbedoTransparency.png using Guid(769875edc8df5604d9624aa4e364d7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b8fdcee0522d8d0dcf57401955dfb4') in 0.010884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_Normal.png
+  artifactKey: Guid(804ef55d9f600094ca52157e04f2d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_Normal.png using Guid(804ef55d9f600094ca52157e04f2d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feda2a3ac2770c27fef5f0363e4bce6') in 0.007126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.821224 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/BathPlugMat.mat
+  artifactKey: Guid(a429832739f531a4e8db91b35ca4830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/BathPlugMat.mat using Guid(a429832739f531a4e8db91b35ca4830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fad6cd93f298ec816f9c95c7d40cf9') in 0.008351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.434618 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_Normal.png
+  artifactKey: Guid(804ef55d9f600094ca52157e04f2d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/ToiletPlug_DestapadorToilet_Normal.png using Guid(804ef55d9f600094ca52157e04f2d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af13f2d292bd9fae38bdba2c3a19c987') in 0.007557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.343978 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/BathPlugMat.mat
+  artifactKey: Guid(a429832739f531a4e8db91b35ca4830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPlug/BathPlugMat.mat using Guid(a429832739f531a4e8db91b35ca4830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1331f4b090e54600fe1530a76660c7cf') in 0.010355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.696238 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_AlbedoTransparency.png
+  artifactKey: Guid(c38a653a7c0f7584cb21429a844b6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_AlbedoTransparency.png using Guid(c38a653a7c0f7584cb21429a844b6ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92bbf890d3e83c20dcace7f69bee18c') in 0.007816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.287142 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_Normal.png
+  artifactKey: Guid(db8cfc3f36903804fae3048a2712004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_Normal.png using Guid(db8cfc3f36903804fae3048a2712004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cb8f3e5337186c768f3d26abb3975c') in 0.010087 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92801cae1a897d946050a0dfa8d20fcb') in 0.014115 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_Normal.png
+  artifactKey: Guid(7a5fcb1bec4dbfe4dbdbf8c3803b4eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_Normal.png using Guid(7a5fcb1bec4dbfe4dbdbf8c3803b4eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e454237849d413ae099344178001427b') in 0.007939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.962220 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPapelBaseMat.mat
+  artifactKey: Guid(7b589e7c23151aa4094d9bc56a850e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPapelBaseMat.mat using Guid(7b589e7c23151aa4094d9bc56a850e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62496eddefd09bf7a7113e19544587ed') in 0.007478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.090859 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPaperMat.mat
+  artifactKey: Guid(d28d3c960982341439392cc58d804ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPaperMat.mat using Guid(d28d3c960982341439392cc58d804ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d85f4522b646568c93066e37db26350') in 0.007984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.733724 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_Normal.png
+  artifactKey: Guid(7a5fcb1bec4dbfe4dbdbf8c3803b4eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_PapelToilet_Normal.png using Guid(7a5fcb1bec4dbfe4dbdbf8c3803b4eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0975d57e19a90901e4366662ca8f80') in 0.006543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.792362 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_Normal.png
+  artifactKey: Guid(db8cfc3f36903804fae3048a2712004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/ToiletPaper_BasePapelToilet_Normal.png using Guid(db8cfc3f36903804fae3048a2712004e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643b6148a5b4e8593f8c7345d86df7f9') in 0.008298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.407202 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPapelBaseMat.mat
+  artifactKey: Guid(7b589e7c23151aa4094d9bc56a850e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/TexturasPapel/BathPapelBaseMat.mat using Guid(7b589e7c23151aa4094d9bc56a850e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b836bd33ff2cc153be5dd7b9f44ac1d') in 0.012681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.382321 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/Soap.fbx
+  artifactKey: Guid(22488a701e4cbf94b8e5e37e72307f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/Soap.fbx using Guid(22488a701e4cbf94b8e5e37e72307f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcca5caebffaf39e21e5c8fc237d4f08') in 0.199880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.934275 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/Soap_Soap4_AlbedoTransparency.png
+  artifactKey: Guid(90e2424fe25bdc14d9d8717470772682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/Soap_Soap4_AlbedoTransparency.png using Guid(90e2424fe25bdc14d9d8717470772682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5498c248ddcba7d48f43cbc101b394') in 0.014227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.990584 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/SoapMat.mat
+  artifactKey: Guid(40f8b9522c7c8df4c88020f31f591c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/SoapMat.mat using Guid(40f8b9522c7c8df4c88020f31f591c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048a9e1596fbc72955d4cc481f7577c8') in 0.007258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.475302 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/Soap_Soap4_Normal.png
+  artifactKey: Guid(da77c172bfa94df43814c59887b06608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/Soap_Soap4_Normal.png using Guid(da77c172bfa94df43814c59887b06608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5f587d8d8b6b53730f1cc1abc881fe') in 0.006612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.311700 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/SoapMat.mat
+  artifactKey: Guid(40f8b9522c7c8df4c88020f31f591c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon/SoapMat.mat using Guid(40f8b9522c7c8df4c88020f31f591c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22a069ae66c1190f5d438c2616edf88') in 0.011155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.451677 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon
+  artifactKey: Guid(2da0e764ee91e554b98bd1899c541139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaJabon using Guid(2da0e764ee91e554b98bd1899c541139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b830e7d43cbdee941995f07b1bdd1f') in 0.002310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.636434 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo
+  artifactKey: Guid(f4085f2cfb41751488bdec525bca0a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo using Guid(f4085f2cfb41751488bdec525bca0a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5280483797aecb4572bd3b470565db42') in 0.001825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.511263 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_Cepillo2_AlbedoTransparency.png
+  artifactKey: Guid(85f8afd3ff1a3a245b64d0ead2803068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_Cepillo2_AlbedoTransparency.png using Guid(85f8afd3ff1a3a245b64d0ead2803068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83bb8a242f7640b2c539e0c5d4955bb') in 0.008247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.295338 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_Cepillo2_Normal.png
+  artifactKey: Guid(cebbdc7dd9962894985a93851c437655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_Cepillo2_Normal.png using Guid(cebbdc7dd9962894985a93851c437655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c85af5925ecc63f1bde71422df66c2d') in 0.016408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_VasoCepillo_MetallicSmoothness.png
+  artifactKey: Guid(2e05224744a866d42b11be810df5e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_VasoCepillo_MetallicSmoothness.png using Guid(2e05224744a866d42b11be810df5e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6230bdf152b8bf78268d64b49b88e6c9') in 0.061779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.626142 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/CepilloBathMat.mat
+  artifactKey: Guid(256caff2e26692d4094b7232a8eb3d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/CepilloBathMat.mat using Guid(256caff2e26692d4094b7232a8eb3d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd968f1b789f2cba7e1a8392b0ed525') in 0.008949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.886105 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_Cepillo2_Normal.png
+  artifactKey: Guid(cebbdc7dd9962894985a93851c437655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_Cepillo2_Normal.png using Guid(cebbdc7dd9962894985a93851c437655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd159dba2c5d38e794dd6022ca7c6869b') in 0.006796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.881012 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/CepilloBathMat.mat
+  artifactKey: Guid(256caff2e26692d4094b7232a8eb3d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/CepilloBathMat.mat using Guid(256caff2e26692d4094b7232a8eb3d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb604f3ca0773b166484b2668655a654') in 0.011208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.892169 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/VasoBathMat.mat
+  artifactKey: Guid(437820a934220fc4dafed73b83b9841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/VasoBathMat.mat using Guid(437820a934220fc4dafed73b83b9841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9eedb677eff8b15e4b0c496e9ba4897') in 0.011824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.520693 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_VasoCepillo_Normal.png
+  artifactKey: Guid(59f1ca933d1fda94aa8b13e5232b6da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/ToothBrushGlass_VasoCepillo_Normal.png using Guid(59f1ca933d1fda94aa8b13e5232b6da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e438007d7200fb3f7d35dee75a8be9') in 0.006379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.371836 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/VasoBathMat.mat
+  artifactKey: Guid(437820a934220fc4dafed73b83b9841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaCepillo/VasoBathMat.mat using Guid(437820a934220fc4dafed73b83b9841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec35519022cb133e3187bb93717d1b61') in 0.011020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.747034 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.001_AlbedoTransparency.png
+  artifactKey: Guid(496e34c7c0119734093077cd24ea0b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.001_AlbedoTransparency.png using Guid(496e34c7c0119734093077cd24ea0b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbd4922875339f8d8aa612988e8fea1') in 0.035185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.281098 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.002_MetallicSmoothness.png
+  artifactKey: Guid(b8b20cb9d9d0b43418568d99dd58a7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.002_MetallicSmoothness.png using Guid(b8b20cb9d9d0b43418568d99dd58a7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfb0cfe266eb4c7e7dc8f23617d730e') in 0.007399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.297068 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.003_AlbedoTransparency.png
+  artifactKey: Guid(01e48131109b8c04098473ad72a16a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.003_AlbedoTransparency.png using Guid(01e48131109b8c04098473ad72a16a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95de2528a3f6286af026437381c41af') in 0.007545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.306093 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.004_Normal.png
+  artifactKey: Guid(b0918a67ffcf34e4b99c59c6cb60504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.004_Normal.png using Guid(b0918a67ffcf34e4b99c59c6cb60504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd683cf20470408dee7f84bf8996f7e0') in 0.010525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_VEG LOGO_Normal.png
+  artifactKey: Guid(a0f188529dcd5ed4aaecb8da0d9d2425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_VEG LOGO_Normal.png using Guid(a0f188529dcd5ed4aaecb8da0d9d2425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3e313910f0e1c469122db6858dc2c2') in 0.054149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.002_AlbedoTransparency.png
+  artifactKey: Guid(0d52a18d96d512f4793ec513a7ba14ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.002_AlbedoTransparency.png using Guid(0d52a18d96d512f4793ec513a7ba14ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e52e67f704bac7930ca068c935ce8f') in 0.011425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.004_AlbedoTransparency.png
+  artifactKey: Guid(a7036bddb80221f48a9e850721ea6463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.004_AlbedoTransparency.png using Guid(a7036bddb80221f48a9e850721ea6463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a56694d31364821c104e671ae13e99') in 0.025875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.901245 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat.mat
+  artifactKey: Guid(4329610300bd1ca409f1af7dcd04c24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat.mat using Guid(4329610300bd1ca409f1af7dcd04c24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f74b313251bcc5cc642c5e8eafb829d') in 0.007713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.595657 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.001_Normal.png
+  artifactKey: Guid(bbdda94517528b24395ba83d781c3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.001_Normal.png using Guid(bbdda94517528b24395ba83d781c3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df60d9c0869c6578746cd2e293d95b9') in 0.007050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.809597 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 1.mat
+  artifactKey: Guid(c8350550fc1b341499f975f3e089fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 1.mat using Guid(c8350550fc1b341499f975f3e089fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec14cee448c1682cb46777ca7fe903ae') in 0.011491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.521988 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.002_Normal.png
+  artifactKey: Guid(1deefb89086673b4aa765b81509796a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.002_Normal.png using Guid(1deefb89086673b4aa765b81509796a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bffdde80f157a8cda247981852f97d') in 0.007434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.585785 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 1.mat
+  artifactKey: Guid(c8350550fc1b341499f975f3e089fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 1.mat using Guid(c8350550fc1b341499f975f3e089fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e723a6492bfbdc1c2355097a1cb2c8') in 0.012502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.335013 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 2.mat
+  artifactKey: Guid(9ed4b4fcd80b012419a683eb47504995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 2.mat using Guid(9ed4b4fcd80b012419a683eb47504995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c10b9924744f240346a4934cb73fe') in 0.010745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.177052 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.003_Normal.png
+  artifactKey: Guid(046d8e332e3ed434b9cf94b1d9d1d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.003_Normal.png using Guid(046d8e332e3ed434b9cf94b1d9d1d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eff20f989ce81ab19e6b5e179cb991c') in 0.006297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.466529 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 2.mat
+  artifactKey: Guid(9ed4b4fcd80b012419a683eb47504995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 2.mat using Guid(9ed4b4fcd80b012419a683eb47504995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b26059c1253b9240f3f8ff50860c7cd') in 0.014916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.908840 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 3.mat
+  artifactKey: Guid(07b30a48bac58aa48bbbaf513ce41959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 3.mat using Guid(07b30a48bac58aa48bbbaf513ce41959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c91b952b5721e8203de73b98a616f41') in 0.010974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.242842 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.004_Normal.png
+  artifactKey: Guid(b0918a67ffcf34e4b99c59c6cb60504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/Thoothpaste_Material.004_Normal.png using Guid(b0918a67ffcf34e4b99c59c6cb60504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dddbf97d659609fe2a96211b62d3ca67') in 0.006830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.509189 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 3.mat
+  artifactKey: Guid(07b30a48bac58aa48bbbaf513ce41959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/TexturaPasta/PastaBathMat 3.mat using Guid(07b30a48bac58aa48bbbaf513ce41959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62f56f94f4328e6d3d6402cd2c9247c') in 0.011174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.656823 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet/alfombra_terciopelo.fbx
+  artifactKey: Guid(eb42770c512dc114ca57cc98b9c7b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet/alfombra_terciopelo.fbx using Guid(eb42770c512dc114ca57cc98b9c7b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c203340846659e8d67cf8e4d9a29c80') in 0.012445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.444769 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet/AlfombraBathMat.mat
+  artifactKey: Guid(2c89c774ae0cfa64da40bf84256c6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet/AlfombraBathMat.mat using Guid(2c89c774ae0cfa64da40bf84256c6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aafb1c42845b45471c95ee3837a888b') in 0.007386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.757836 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet/Texturas/alfombra_terciopelo_ALFOMBRA_AlbedoTransparency.png
+  artifactKey: Guid(0402394049eb9cd438beebe297ce6aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet/Texturas/alfombra_terciopelo_ALFOMBRA_AlbedoTransparency.png using Guid(0402394049eb9cd438beebe297ce6aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cde48630017fda7764362a7ba42a0b4') in 0.017094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet/Texturas/alfombra_terciopelo_ALFOMBRA_Normal.png
+  artifactKey: Guid(f25a466a3ad137e4e824f1e8a2f460a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet/Texturas/alfombra_terciopelo_ALFOMBRA_Normal.png using Guid(f25a466a3ad137e4e824f1e8a2f460a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e280c24f861a2f67055621d4d25bce43') in 0.020419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.705041 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet/Texturas/alfombra_terciopelo_ALFOMBRA_Normal.png
+  artifactKey: Guid(f25a466a3ad137e4e824f1e8a2f460a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet/Texturas/alfombra_terciopelo_ALFOMBRA_Normal.png using Guid(f25a466a3ad137e4e824f1e8a2f460a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c784840d181e8d09b31e13412d4274c') in 0.006142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.416182 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet/AlfombraBathMat.mat
+  artifactKey: Guid(2c89c774ae0cfa64da40bf84256c6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet/AlfombraBathMat.mat using Guid(2c89c774ae0cfa64da40bf84256c6dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9259142f0c599ca3eaa507d1c1eecf95') in 0.010344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.709065 seconds.
+  path: Assets/Models/NIVEL1/Cocina
+  artifactKey: Guid(0ed45a4a21a58f645b04bcd69e3d0c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina using Guid(0ed45a4a21a58f645b04bcd69e3d0c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2286e534572fc988c84b5ef194575196') in 0.001919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.209085 seconds.
+  path: Assets/Models/NIVEL1/Cocina/Invitation.png
+  artifactKey: Guid(8e3d910e1d08fef448c3ce53e648344d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/Invitation.png using Guid(8e3d910e1d08fef448c3ce53e648344d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a1d767064924411577cacf66ff69cf') in 0.257991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.249573 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA
+  artifactKey: Guid(27ac15f8c37eba64e90d386f0ea9b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA using Guid(27ac15f8c37eba64e90d386f0ea9b70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b480224e9d248516bc9d53048dce88') in 0.002077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283987 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/Nevera.fbx
+  artifactKey: Guid(346ede2a8b0103b41ac4b62c5c2298db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/Nevera.fbx using Guid(346ede2a8b0103b41ac4b62c5c2298db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703029523bdd9cd965f701dd3126ddbd') in 0.015001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.191724 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock
+  artifactKey: Guid(07439c8d5ab89d445a26c4cb381a5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock using Guid(07439c8d5ab89d445a26c4cb381a5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edf4b72af9383b4b856ea73389550a5') in 0.002372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058716 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/IceRocks.fbx
+  artifactKey: Guid(98cb9eee43819804eb4b81c1b5ec031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/IceRocks.fbx using Guid(98cb9eee43819804eb4b81c1b5ec031c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090ba40d3b0004fc3e1185f482b63172') in 0.040924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 289.649022 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream
+  artifactKey: Guid(63649fce2c662fc41aa2daacfa35f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream using Guid(63649fce2c662fc41aa2daacfa35f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6201dd909837cbdb746e4f612d3bf26') in 0.001991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101967 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/popsicle.obj
+  artifactKey: Guid(d8bcdc6ce1082c34689d7a6074e6f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/popsicle.obj using Guid(d8bcdc6ce1082c34689d7a6074e6f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a29843962b0b65d232d41ef2bac481') in 0.019152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.704768 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo
+  artifactKey: Guid(e9a287349c5fe2341b49f46c34c853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo using Guid(e9a287349c5fe2341b49f46c34c853af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8c49461e2d94d2ffe012e47fb570eb') in 0.002275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144325 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/popsicle_popsicle_material_AlbedoTransparency.png
+  artifactKey: Guid(d00b3524358971e4ab099936cb5f6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/popsicle_popsicle_material_AlbedoTransparency.png using Guid(d00b3524358971e4ab099936cb5f6b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7cc2cec3da00fa88f6286f3c062afea') in 0.050050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.512726 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate
+  artifactKey: Guid(369e040548a2d1c48beb23a73dd7c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate using Guid(369e040548a2d1c48beb23a73dd7c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5f9e7550518c94db720bc0a7c799d0') in 0.002355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062431 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/popsicle_popsicle_material_AlbedoTransparency.png
+  artifactKey: Guid(26404a2a11a06504eaefb57d8e3fe091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/popsicle_popsicle_material_AlbedoTransparency.png using Guid(26404a2a11a06504eaefb57d8e3fe091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352748b107bf824b2bdb571587813a89') in 0.020643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.243975 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/ChocolateMat.mat
+  artifactKey: Guid(1716afba5b0a2314db5981944b9f4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/ChocolateMat.mat using Guid(1716afba5b0a2314db5981944b9f4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c8656fb239f354b87fa0bd4e3959e4') in 0.008507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.977089 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/popsicle_popsicle_material_Normal.png
+  artifactKey: Guid(e5b35b144d85d7f4c83f1fb3e14cb2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/popsicle_popsicle_material_Normal.png using Guid(e5b35b144d85d7f4c83f1fb3e14cb2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1172e94dba7182945aef977914d196d2') in 0.006680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.145269 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/ChocolateMat.mat
+  artifactKey: Guid(1716afba5b0a2314db5981944b9f4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/ChocolateMat.mat using Guid(1716afba5b0a2314db5981944b9f4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1e334029cf650be43701c2b3543a8c') in 0.012097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.416953 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/ChocolateMat.mat
+  artifactKey: Guid(1716afba5b0a2314db5981944b9f4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Chocolate/ChocolateMat.mat using Guid(1716afba5b0a2314db5981944b9f4fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c642a30c7b5ac90e56bd7a9732d92890') in 0.011675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.770908 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/New Material.mat
+  artifactKey: Guid(8696154fcab78a641b727da1a86dd706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/New Material.mat using Guid(8696154fcab78a641b727da1a86dd706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bda85889ab8bdded193d488bd81efa7') in 0.010225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.265316 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/popsicle_popsicle_material_Normal.png
+  artifactKey: Guid(cba33c45614a1414691f6b53e53c08b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/popsicle_popsicle_material_Normal.png using Guid(cba33c45614a1414691f6b53e53c08b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b39de8b8ce0efeafe9f316d8456cca7') in 0.005986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.344188 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/CremadeCieloMat.mat
+  artifactKey: Guid(8696154fcab78a641b727da1a86dd706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/CremadeCieloMat.mat using Guid(8696154fcab78a641b727da1a86dd706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec6c75b480d8ba3c729f69515789b97') in 0.010515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.080340 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/CremadeCieloMat.mat
+  artifactKey: Guid(8696154fcab78a641b727da1a86dd706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/CremaCielo/CremadeCieloMat.mat using Guid(8696154fcab78a641b727da1a86dd706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ace7c35b30886b479957bc2610acc1') in 0.010575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.721184 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa
+  artifactKey: Guid(2eaa8fc10cf57f54da03296f5374a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa using Guid(2eaa8fc10cf57f54da03296f5374a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fd404ea2fe6d73b8cffcc5b8745ab9') in 0.001873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.154357 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/popsicle_popsicle_material_AlbedoTransparency.png
+  artifactKey: Guid(baf48ee63d51ee142863b5971ae7c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/popsicle_popsicle_material_AlbedoTransparency.png using Guid(baf48ee63d51ee142863b5971ae7c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f956623c437760f51b20ba8742170c0') in 0.052563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.308623 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/FresaMat.mat
+  artifactKey: Guid(2fd26b2e8515dc5449554ed8298cff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/FresaMat.mat using Guid(2fd26b2e8515dc5449554ed8298cff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677a9aa50c59592fae10c61a4535a723') in 0.007619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.250490 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/popsicle_popsicle_material_Normal.png
+  artifactKey: Guid(a12aafde5ef980743b9c350c2f24c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/popsicle_popsicle_material_Normal.png using Guid(a12aafde5ef980743b9c350c2f24c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc258e60ac873a560fb40c27dc8ea9a8') in 0.006020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.096166 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/FresaMat.mat
+  artifactKey: Guid(2fd26b2e8515dc5449554ed8298cff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Fresa/FresaMat.mat using Guid(2fd26b2e8515dc5449554ed8298cff68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea420a8e5f97c7790b1c4090d055ba7b') in 0.011681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.439137 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/popsicle_popsicle_material_AlbedoTransparency.png
+  artifactKey: Guid(8edb9129c1f4be5408bea5d5adb9b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/popsicle_popsicle_material_AlbedoTransparency.png using Guid(8edb9129c1f4be5408bea5d5adb9b9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb621bb78e06dab69631f8863c48384') in 0.030209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.516415 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/VainillaMat.mat
+  artifactKey: Guid(d11a89b4d2e679e44aa9dfb4fd89517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/VainillaMat.mat using Guid(d11a89b4d2e679e44aa9dfb4fd89517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb432e227e89fe867da17da9f7cf64f') in 0.008890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.987946 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/VainillaMat.mat
+  artifactKey: Guid(d11a89b4d2e679e44aa9dfb4fd89517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/VainillaMat.mat using Guid(d11a89b4d2e679e44aa9dfb4fd89517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482f56c0a85a16473505fd5c770c32e0') in 0.014711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.307068 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/popsicle_popsicle_material_Normal.png
+  artifactKey: Guid(8e77be528e475d54dbb19ea37ed25727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceCream/Vainilla/popsicle_popsicle_material_Normal.png using Guid(8e77be528e475d54dbb19ea37ed25727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba4bac03668470a9bc0ce25e7a197c1') in 0.006938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 246.242237 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas
+  artifactKey: Guid(577a56cf0846ba547a736c17b2c13c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas using Guid(577a56cf0846ba547a736c17b2c13c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7c3927af0af9d3972d30eac346938d') in 0.001829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056303 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert5_AlbedoTransparency.png
+  artifactKey: Guid(d6fdcc6647a25cd459a1ae97b893607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert5_AlbedoTransparency.png using Guid(d6fdcc6647a25cd459a1ae97b893607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a57567f25a8cad5b5f28f143ba80752') in 0.009474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.540532 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_MetallicSmoothness.png
+  artifactKey: Guid(99e865a8c968b0d43b9de13a1f049fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_MetallicSmoothness.png using Guid(99e865a8c968b0d43b9de13a1f049fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4eb59f34f85542358cbfda70084e95') in 0.011355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_Normal.png
+  artifactKey: Guid(a37dba549dbde7f4b9397d85040b59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_Normal.png using Guid(a37dba549dbde7f4b9397d85040b59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412a198457a2210e7f19435618a70ce7') in 0.019398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_AlbedoTransparency.png
+  artifactKey: Guid(ec96afe11779a4745b544ebb3c212b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_AlbedoTransparency.png using Guid(ec96afe11779a4745b544ebb3c212b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fbf0b9ddf2bce5a5d833cab82dcd7c') in 0.017743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.431551 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat.mat
+  artifactKey: Guid(63adcfdb6d1253842ab0b60058c0a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat.mat using Guid(63adcfdb6d1253842ab0b60058c0a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8981a145334543c3d0afa508914cda') in 0.008110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.927328 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert5_Normal.png
+  artifactKey: Guid(d191e486176d7e44c9c16b4307ea4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert5_Normal.png using Guid(d191e486176d7e44c9c16b4307ea4454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d4cc20b1601292ac308d2363d545a') in 0.006419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.168467 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat.mat
+  artifactKey: Guid(63adcfdb6d1253842ab0b60058c0a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat.mat using Guid(63adcfdb6d1253842ab0b60058c0a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e2709396701eb43b89b8ab807e43f3') in 0.012528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.409655 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat 1.mat
+  artifactKey: Guid(833be51b1c5022e4a8290465a49cce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat 1.mat using Guid(833be51b1c5022e4a8290465a49cce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcb739fd64d60794ce092d5d8199e1c') in 0.010711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.225640 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_Normal.png
+  artifactKey: Guid(a37dba549dbde7f4b9397d85040b59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRocks_lambert6_Normal.png using Guid(a37dba549dbde7f4b9397d85040b59cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd816ef97c9646fbf5b9bf58ac3ac17') in 0.007692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.636890 seconds.
+  path: Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat 1.mat
+  artifactKey: Guid(833be51b1c5022e4a8290465a49cce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Cocina/NEVERA/IceRock/Texturas/IceRockMat 1.mat using Guid(833be51b1c5022e4a8290465a49cce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddf32fb79bcdce85d8a9af33fb0153f') in 0.833138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1132.952860 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet
+  artifactKey: Guid(d121316695017e6419539e915ff0015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet using Guid(d121316695017e6419539e915ff0015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a7f3fa1efa52abed111568dd9e826a') in 0.001991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.523592 seconds.
+  path: Assets/Models/NIVEL1/Bath/AlfombraToilet/alfombra_terciopelo.fbx
+  artifactKey: Guid(eb42770c512dc114ca57cc98b9c7b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/AlfombraToilet/alfombra_terciopelo.fbx using Guid(eb42770c512dc114ca57cc98b9c7b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2d255d68129554e330b90da74abc18') in 0.040803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.146948 seconds.
+  path: Assets/Models/NIVEL1/Bath/Ducha
+  artifactKey: Guid(414c077912c5b2948add9bf36492780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Ducha using Guid(414c077912c5b2948add9bf36492780c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c5c9bdd299d57479456b05dacc54cb') in 0.001973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.024412 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/ToiletBrush.fbx
+  artifactKey: Guid(bd235e988d7360641815276179eedec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/ToiletBrush.fbx using Guid(bd235e988d7360641815276179eedec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a80c33b965c2435a3dbc900ea6c2cb2') in 0.090905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.809242 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/ToiletPaper.fbx
+  artifactKey: Guid(92d678d55e971954f86638fec54d6bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/ToiletPaper.fbx using Guid(92d678d55e971954f86638fec54d6bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4e8ef352a06c2ddaa5f19157abab4d') in 0.072060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.616852 seconds.
+  path: Assets/Models/NIVEL1/Bath/KitBath/ToiletPlug.fbx
+  artifactKey: Guid(cd1ca81dbeeff6443a3066088de46865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/KitBath/ToiletPlug.fbx using Guid(cd1ca81dbeeff6443a3066088de46865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced67a6604601a46206225eea8dc2904') in 0.109040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.688762 seconds.
+  path: Assets/Models/NIVEL1/Bath/Lavabo
+  artifactKey: Guid(833e59c2f5351d848b375b0ac7bf23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Lavabo using Guid(833e59c2f5351d848b375b0ac7bf23a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7d8c849321a9510e4f41b739a1458f') in 0.002369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.746131 seconds.
+  path: Assets/Models/NIVEL1/Bath/Lavabo/LavaboCuerpo.fbx
+  artifactKey: Guid(d7c227f8eef591d468298b40b49c8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Lavabo/LavaboCuerpo.fbx using Guid(d7c227f8eef591d468298b40b49c8544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd455a44077552cb520de495ac9e66ac2') in 0.024415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/NIVEL1/Bath/Lavabo/LavaboPuerta.fbx
+  artifactKey: Guid(74cc1c84d9a0d184ba5ca5a3c7edf456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Lavabo/LavaboPuerta.fbx using Guid(74cc1c84d9a0d184ba5ca5a3c7edf456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dc0b2d205959c70b6e27ba2233503f') in 0.023714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.540399 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toalla/TowelRail.fbx
+  artifactKey: Guid(4ae424efb57f0c249a881fd9cdacddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toalla/TowelRail.fbx using Guid(4ae424efb57f0c249a881fd9cdacddf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d41dedf276e6701e21f620f83c6ee6') in 0.016785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.859050 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush
+  artifactKey: Guid(59a1aeaefc4b83d4e8b75ef7b936f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush using Guid(59a1aeaefc4b83d4e8b75ef7b936f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e95c619b965b37b5e65064468facf2') in 0.002261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.226410 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/Soap.fbx
+  artifactKey: Guid(22488a701e4cbf94b8e5e37e72307f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/Soap.fbx using Guid(22488a701e4cbf94b8e5e37e72307f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b18d4284953d82f45291c608ccf517') in 0.091032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.632035 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/Thoothpaste.fbx
+  artifactKey: Guid(937b3cff1d21b99499260d9992216b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/Thoothpaste.fbx using Guid(937b3cff1d21b99499260d9992216b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2636d5b43bdf8c73f6fdd62da6c563b9') in 0.057975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.816636 seconds.
+  path: Assets/Models/NIVEL1/Bath/Toothbrush/ToothBrushGlass.fbx
+  artifactKey: Guid(0cb55634a06cbc246996887849faec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/NIVEL1/Bath/Toothbrush/ToothBrushGlass.fbx using Guid(0cb55634a06cbc246996887849faec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbef3d99351e31b916a1fe59a3e1ae99') in 0.044310 seconds 
